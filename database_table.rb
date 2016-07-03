@@ -2,7 +2,7 @@
 require 'spreadsheet'
 require 'rubygems'
 require 'mysql2'
-require 'pry'
+# require 'pry'
 
 class Database_table
   def initialize(database_name)

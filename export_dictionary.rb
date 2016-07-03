@@ -1,5 +1,5 @@
 #encoding: utf-8
-require 'pry'
+# require 'pry'
 require './database_table'
 
 # 直接通过命令行来接收参数 arg1: 数据库名称, arg2: 调用的方法名
