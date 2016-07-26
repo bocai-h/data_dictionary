@@ -76,7 +76,7 @@ class Database_table
       book.write("./result_excel/中民物业云平台基础架构数据字典.xls")
       puts "ok"
       return "ok"
-    rescue ex
+    rescue => ex
       puts ex.message
       return "failed"
     end
